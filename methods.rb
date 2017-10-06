@@ -70,33 +70,9 @@ puts multiply(add(5,5),subtract(15,5))
 puts add(subtract(55,45), subtract(42,32))
 
 
+def example(name: "Bob", age: 15)
+	puts "hello, #{name}, you are #{} years old."
+end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+example(age: 20)
 
